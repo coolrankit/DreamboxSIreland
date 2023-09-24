@@ -16,4 +16,3 @@ Where .tv files locates on:
 2.	Then install the plugin using provided .ipk file
 3.	Check the folder structure of installed plugin is as mentioned above or not. And also it has necessary permissions or not.
 4.	Run the plugin and check if the plugin is working as expected or not.
-5.	Report and show me on teamviewer or skype if anything is problematic. As I do not have any access to any box, I couldn’t final test it.
