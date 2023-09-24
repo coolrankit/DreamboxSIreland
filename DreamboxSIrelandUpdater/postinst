@@ -1,0 +1,22 @@
+#!/bin/sh
+echo "Restarting Enigma2 to load RegulusPlugin Plugin ..."
+if [ /control ]
+then
+rm -rf /control
+fi
+if [ /postrm ]
+then
+rm -rf /postrm
+fi
+if [ /preinst ]
+then
+rm -rf /preinst
+fi
+if [ /postinst ]
+then
+rm -rf /postinst
+fi
+init 4
+killall -9 enigma2 > /dev/null 2>&1
+init 3
+exit 0

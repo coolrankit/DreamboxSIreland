@@ -1,0 +1,12 @@
+#!/bin/sh
+echo "Checking for an older version of Dreambox S Ireland Updater in the system..."
+if [ -d /usr/lib/enigma2/python/Plugins/Extensions/DreamboxSIrelandUpdater ]
+then
+rm -rf /usr/lib/enigma2/python/Plugins/Extensions/DreamboxSIrelandUpdater > /dev/null 2>&1
+echo "An older version of Dreambox S Ireland Updater was found and removed"
+echo "Proceeding to installation..."
+else
+echo "Dreambox S Ireland Updater was not found in the system"
+echo "Proceeding to installation..."
+fi
+exit 0

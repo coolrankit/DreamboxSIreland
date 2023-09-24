@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "Removing Dreambox S Ireland Updater Plugin from the system ..."
+rm -r /usr/lib/enigma2/python/Plugins/Extensions/DreamboxSIrelandUpdater > /dev/null 2>&1
+echo "Restarting Enigma2 to get rid of Dreambox S Ireland Updater Plugin ..."
+init 4
+killall -9 enigma2 > /dev/null 2>&1
+init 3
+exit 0

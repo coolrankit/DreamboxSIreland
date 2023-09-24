@@ -1,0 +1,11 @@
+Package: enigma2-plugin-extensions-dreamboxsirelandupdater
+Version: 1.0
+Description: Downloads & Updates TV Dreambox S Ireland feeds
+Section: extra
+Priority: optional
+Maintainer: RegulusReign Technologies Pvt. Ltd.<info@regulusreign.com>
+Architecture: Pallab Sardar
+OE:
+Homepage: www.regulusreign.com
+Depends:
+Source: www.regulusreign.com
